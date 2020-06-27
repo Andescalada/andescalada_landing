@@ -1,46 +1,31 @@
 - name: Eyal Levy
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
+  bio: Ingeniero Civil Industrial, Master en Gestión de Operaciones, Master en Sustainability Management Columbia University. Montañista con expediciones en Chile, Estados Unidos y la Patagonia. Vegetariano, amante de la pizza, los perros y el medio ambiente.
+  linkedin: 'https://www.linkedin.com/in/eyal-levy-2305/'
+  twitter: 'https://twitter.com/eyalll'
+  github: 'https://github.com/elevyg'
   photo: 'eyal.png'
   position: 'Director ejecutivo'
 - name: Daniela Quiroz
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
-  photo: 'eyal.png'
-  position: 'Tesorera directorio'
+  bio: Ingeniera civil industrial, mención TI. Más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Montañista con expediciones en Chile, Perú, Ecuador y Bolivia. Feminista, vegana, amante de los los libros y la cerveza.
+  linkedin: 'https://www.linkedin.com/in/daquiroz/'
+  twitter: 'https://twitter.com/DaniAQO'
+  instagram: 'https://www.instagram.com/daniquirozo/'
+  github: 'https://gitlab.com/daquiroz'
+  photo: 'dani.png'
+  position: 'Directora, Tesorera'
 - name: Francisco Vallés
+  position: Presidente directorio
   bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   linkedin: ''
   twitter: ''
   instagram: ''
   github: ''
   photo: 'francisco.png'
-- name: Francisco Vallés
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
-  photo: 'eyal.png'
-  position: 'Presidente directorio'
 - name: Natalia Bugedo
+  position: Vicepresidenta directorio
   bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   linkedin: ''
   twitter: ''
   instagram: ''
   github: ''
   photo: 'nati.png'
-- name: Francisco Vallés
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
-  photo: 'eyal.png'
-  position: 'Presidente directorio'
