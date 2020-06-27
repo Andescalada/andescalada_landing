@@ -12,20 +12,17 @@
   instagram: 'https://www.instagram.com/daniquirozo/'
   github: 'https://gitlab.com/daquiroz'
   photo: 'dani.png'
-  position: 'Directora, Tesorera'
+  position: 'Tesorera directorio'
 - name: Francisco Vallés
   position: Presidente directorio
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
+  bio: Ingeniero civil industrial. Más de 5 años desarrollando aplicaciones web y móviles. Aficionado de la escalada desde hace 10 años, y del montañismo.
+  linkedin: 'https://www.linkedin.com/in/vallesfrancisco/'
+  instagram: 'https://www.instagram.com/fjvalles/'
   photo: 'francisco.png'
 - name: Natalia Bugedo
   position: Vicepresidenta directorio
-  bio: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  linkedin: ''
-  twitter: ''
-  instagram: ''
-  github: ''
+  bio: "Ingeniera Civil Industrial, mención mecánica. Magister en Ciencias de la Ingeniería. Guia Instructora de escalada deportiva de la ENAM y miembro de la ACGM. Enamorada de la escalada desde el 2012 con ascensiones en Chile, Bolivia, Ecuador, Argentina y USA.  "
+  linkedin: 'https://www.linkedin.com/in/natalia-bugedo-caroca-746b555b/'
+  website: 'www.instagram.com/lineasandinas'
+  instagram: 'https://www.instagram.com/natbugedo/'
   photo: 'nati.png'
