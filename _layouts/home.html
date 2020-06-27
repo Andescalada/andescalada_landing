@@ -4,21 +4,36 @@ layout: default
 
 {%- include slides.html -%}
 
-<div class="uk-section uk-section-default uk-section-large">
-  <div class="uk-container uk-width-1-1 uk-width-3-4@m" uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: false">
-    <h2>Objetivos</h2>
-    <div class="uk-child-width-1-1 uk-child-width-1-3@m" uk-grid>
+
+<div class="uk-section uk-section-default animated fadeIn">
+  <div class="uk-container uk-width-2-3@m uk-text-center " uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 200; repeat: false">
+    <div class="uk-width-1-1">
+      <h2>Qué buscamos</h2><br>
+    </div>
+    <div class="uk-grid-large uk-child-width-1-2 uk-child-width-1-3@m uk-flex uk-flex-center" uk-grid>
       <div>
-        <h3 class="uk-h4"> Coordinar actores en torno a sectores de escalada</h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <span uk-icon="icon: users; ratio: 2.5"></span>
+        <p>Coordinar actores en torno a sectores de escalada</p>
       </div>
       <div>
-        <h3 class="uk-h4"> Documentar zonas y rutas de escalada en Chile </h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <span uk-icon="icon: image; ratio: 2.5"></span>
+        <p>Crear un canal para la gestión responsable de sectores de escalada</p>
       </div>
       <div>
-        <h3 class="uk-h4"> Promover el desarrollo sostenible de la escalada </h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <span uk-icon="icon: location; ratio: 2.5"></span>
+        <p>Apoyar la documentación de zonas y rutas de escalada en Chile</p>
+      </div>
+      <div>
+        <span uk-icon="icon: comments; ratio: 2.5"></span>
+        <p>Resolver problemas de acceso a zonas de interés</p>
+      </div>
+      <div>
+        <span uk-icon="icon: heart; ratio: 2.5"></span>
+        <p>Promover el cariño y responsabilidad por nuestros sectores de recreación</p>
+      </div>
+      <div>
+        <span uk-icon="icon: world; ratio: 2.5"></span>
+        <p>Promover el desarrollo sostenible de la escalada</p>
       </div>
     </div>
   </div>
@@ -52,7 +67,7 @@ layout: default
 
     <h2>Por qué Andescalada</h2>
 
-    <div class="uk-column-1-2 uk-column-divider">
+    <div class="uk-column-1-2@m uk-column-divider">
 
       <p>And(es)calada es una organización sin fines de lucro que busca coordinar, documentar y promover el desarrollos sostenible de los sectores de escalada en torno a los Andes.</p>
 
@@ -79,7 +94,7 @@ layout: default
       {% for member in site.data.members %}
          <li class="member-card">
           <div class="uk-text-center">
-            <img class="img-members uk-border-circle" width="180" height="180" src="assets/images/eyal.png" alt="">
+            <img class="img-members uk-border-circle" width="180" height="180" src="assets/images/members/{{ member.photo }}" alt="">
             <p class="">
               <span class="uk-text-bold"> {{ member.name }} </span> <br>
               {{member.position}} <br>
@@ -118,9 +133,6 @@ layout: default
           </div>
         </form>
       </div>
-
       <!--End mc_embed_signup-->
-
-
     </div>
 </div>
