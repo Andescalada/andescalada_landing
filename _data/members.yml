@@ -5,14 +5,6 @@
   github: 'https://github.com/elevyg'
   photo: 'eyal.png'
   position: 'Director ejecutivo'
-- name: Daniela Quiroz
-  bio: Ingeniera civil industrial, mención TI. Más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Montañista con expediciones en Chile, Perú, Ecuador y Bolivia. Feminista, vegana, amante de los los libros y la cerveza.
-  linkedin: 'https://www.linkedin.com/in/daquiroz/'
-  twitter: 'https://twitter.com/DaniAQO'
-  instagram: 'https://www.instagram.com/daniquirozo/'
-  github: 'https://gitlab.com/daquiroz'
-  photo: 'dani.png'
-  position: 'Tesorera directorio'
 - name: Francisco Vallés
   position: Presidente directorio
   bio: Ingeniero civil industrial. Más de 5 años desarrollando aplicaciones web y móviles. Aficionado de la escalada desde hace 10 años, y del montañismo.
@@ -26,3 +18,11 @@
   website: 'https://www.instagram.com/lineasandinas'
   instagram: 'https://www.instagram.com/natbugedo/'
   photo: 'nati.png'
+- name: Daniela Quiroz
+  bio: Ingeniera civil industrial, mención TI. Más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Montañista con expediciones en Chile, Perú, Ecuador y Bolivia. Feminista, vegana, amante de los los libros y la cerveza.
+  linkedin: 'https://www.linkedin.com/in/daquiroz/'
+  twitter: 'https://twitter.com/DaniAQO'
+  instagram: 'https://www.instagram.com/daniquirozo/'
+  github: 'https://gitlab.com/daquiroz'
+  photo: 'dani.png'
+  position: 'Tesorera directorio'
