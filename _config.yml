@@ -3,7 +3,7 @@ email: contacto@andescalada.org
 description: >- # this means to ignore newlines until "baseurl:"
   And(es)calada es una organización sin fines de lucro que busca coordinar, documentar y promover el desarrollos sostenible de los sectores de escalada en torno a los Andes.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://andescalada.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: andescalada
 github_username:  andescalada
 
