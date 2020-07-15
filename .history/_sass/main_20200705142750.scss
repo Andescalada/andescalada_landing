@@ -2,7 +2,7 @@
 $title-font: 'Lato', sans-serif !important;
 $body-font: 'Source Sans Pro', sans-serif !important;
 
-.white {
+.white{
   color: white !important;
 }
 /* General */
@@ -11,22 +11,20 @@ body {
   font-family: $body-font;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3{
   font-family: $title-font;
   font-style: normal;
   font-weight: bold;
 }
 
-h1 {
+h1{
   font-size: 4rem;
 }
 
-.uk-logo {
+.uk-logo{
   font-family: $title-font;
 }
 
-html {
-  scroll-behavior: smooth;
+html{
+    scroll-behavior: smooth;
 }
