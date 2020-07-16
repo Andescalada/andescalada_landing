@@ -1,0 +1,52 @@
+- name: Eyal Levy
+  bio: Ingeniero Civil Industrial, Master en Gestión de Operaciones, Master en Sustainability Management Columbia University. Montañista con aventuras en Chile, Estados Unidos y la Patagonia. Vegetariano, amante de la pizza, los perros y el medio ambiente.
+  linkedin: 'https://www.linkedin.com/in/eyal-levy-2305/'
+  twitter: 'https://twitter.com/eyalll'
+  github: 'https://github.com/elevyg'
+  photo: 'eyal.png'
+  position: 'Director ejecutivo'
+- name: Francisco Vallés
+  position: Presidente directorio / Programación
+  bio: Ingeniero civil industrial. Más de 5 años desarrollando aplicaciones web y móviles. Aficionado de la escalada desde hace 10 años, y del montañismo.
+  linkedin: 'https://www.linkedin.com/in/vallesfrancisco/'
+  instagram: 'https://www.instagram.com/fjvalles/'
+  photo: 'francisco.png'
+- name: Natalia Bugedo
+  position: Vicepresidenta directorio / Gestión Comunitaria
+  bio: 'Ingeniera Civil Industrial, mención mecánica. Magister en Ciencias de la Ingeniería. Guia Instructora de escalada deportiva de la ENAM y miembro de la ACGM. Enamorada de la escalada desde el 2012 con ascensiones en Chile, Bolivia, Ecuador, Argentina y USA.  '
+  linkedin: 'https://www.linkedin.com/in/natalia-bugedo-caroca-746b555b/'
+  website: 'https://www.instagram.com/lineasandinas'
+  instagram: 'https://www.instagram.com/natbugedo/'
+  photo: 'nati.png'
+- name: Daniela Quiroz / Financiamiento
+  bio: Ingeniera civil industrial, mención TI. Más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Montañista con expediciones en Chile, Perú, Ecuador y Bolivia. Feminista, vegana, amante de los los libros y la cerveza.
+  linkedin: 'https://www.linkedin.com/in/daquiroz/'
+  twitter: 'https://twitter.com/DaniAQO'
+  instagram: 'https://www.instagram.com/daniquirozo/'
+  github: 'https://gitlab.com/daquiroz'
+  photo: 'dani.png'
+  position: 'Tesorera directorio'
+# - name: Verena Egetemeir
+#   bio: Ingeniera civil industrial, mención TI. Más de 3 años trabajando en sociedad civil y desarrollando tecnología cívica. Montañista con expediciones en Chile, Perú, Ecuador y Bolivia. Feminista, vegana, amante de los los libros y la cerveza.
+#   # linkedin: './'
+#   # twitter: './'
+#   # instagram: './''
+#   photo: 'verena.png'
+#   position: 'Directora'
+#   - name: José Ignacio Morales
+#   bio:
+#   # linkedin: './'
+#   # twitter: './'
+#   # instagram: './'
+#   photo: 'nacho.png'
+#   position: 'Director'
+#    - name: Romina Toro
+#   bio: Ingeniera Civil Industrial. Más de 4 años de experiencia en consultoría estratégica. He recorrido volcanes y montañas de los Andes.
+#   linkedin: 'https://cl.linkedin.com/in/romina-toro-rodr%C3%ADguez-ab123248'
+#   instagram: 'https://www.instagram.com/rominatoro/?hl=en'
+#   photo: 'romi.png'
+#   position: 'Equipo y Gestión Organizacional'
+#    - name: Jekar Molina
+#   bio: Ingeniero Civil Industrial. Montañista y escalador por sobre todas las cosas.
+#   photo: 'jekar.png'
+#   position: 'Gestión Comunitaria'
