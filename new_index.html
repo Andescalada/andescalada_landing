@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{%- include header.html -%}
+
+<ul
+  class="uk-tab uk-flex uk-flex-center"
+  uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
+>
+  <li><a href="#">La Fundación</a></li>
+  <li><a href="#" class="uk-active">Nuestros Proyectos</a></li>
+</ul>
+<ul class="uk-switcher">
+  <li>{%- include fundacion.html -%}</li>
+  <li>{%- include proyecto.html -%}</li>
+</ul>
+
+<div
+  class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+  style="background-image: url('assets/images/home_dark5.jpg');"
+  uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+>
+  <div class="uk-width-1-2@m uk-margin-auto-vertical uk-margin-xlarge-left">
+    <h2>Recibe actualizaciones de Andescalada</h2>
+    <div id="mc_embed_signup">
+      <form
+        action="https://gmail.us10.list-manage.com/subscribe/post?u=0194c5586a4e7efe96414fa99&amp;id=fa90454139"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate uk-form-horizontal uk-margin-large"
+        target="_blank"
+        novalidate
+      >
+        <div id="mc_embed_signup_scroll" class="uk-margin" uk-margin>
+          <div uk-form-custom="target: true">
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email uk-input uk-form-width-medium"
+              id="mce-EMAIL"
+              placeholder="correo electrónico"
+              required
+            />
+          </div>
+          <input
+            type="submit"
+            value="Recibe noticias"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button uk-button uk-button-default"
+          />
+
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input
+              type="text"
+              name="b_0194c5586a4e7efe96414fa99_fa90454139"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

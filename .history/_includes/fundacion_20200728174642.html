@@ -1,0 +1,285 @@
+<div id="goals" class="uk-section uk-section-muted animated">
+  <div
+    class="uk-container uk-width-2-3@m uk-text-center"
+    uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 100; repeat: false"
+  >
+    <div class="uk-width-1-1">
+      <h2>Qué buscamos</h2>
+      <br />
+    </div>
+    <div
+      class="uk-grid-large uk-child-width-1-2 uk-child-width-1-3@m uk-flex uk-flex-center"
+      uk-grid
+    >
+      <div>
+        <span uk-icon="icon: users; ratio: 2.5"></span>
+        <p>Coordinar actores en torno a sectores de escalada en Chile</p>
+      </div>
+      <div>
+        <span uk-icon="icon: image; ratio: 2.5"></span>
+        <p>
+          Crear un canal para la gestión responsable de sectores de escalada
+        </p>
+      </div>
+      <div>
+        <span uk-icon="icon: location; ratio: 2.5"></span>
+        <p>Apoyar la documentación de zonas y rutas de escalada en Chile</p>
+      </div>
+      <div>
+        <span uk-icon="icon: comments; ratio: 2.5"></span>
+        <p>Resolver problemas de acceso a zonas de interés</p>
+      </div>
+      <div>
+        <span uk-icon="icon: heart; ratio: 2.5"></span>
+        <p>
+          Promover el cariño y responsabilidad por los sectores de recreación
+        </p>
+      </div>
+      <div>
+        <span uk-icon="icon: world; ratio: 2.5"></span>
+        <p>Promover el desarrollo sostenible de la escalada</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="why" class="uk-section uk-padding-remove">
+  <div class="uk-grid-collapse uk-child-width-expand@s" uk-grid>
+    <div
+      class="uk-flex uk-flex-top"
+      uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+    >
+      <div class="uk-padding uk-margin-auto-vertical">
+        <h2>Nuestro Diagnostico</h2>
+        <p>
+          La escalada ha tenido un crecimiento acelerado en el último tiempo
+          tanto en el mundo como en Chile, lo que no se ha condicionado con el
+          desarrollo de políticas de acceso y cuidado. Esto ha generado
+          concentración de escaladores en ciertos sectores, impacto ambiental
+          profundo y problemas con los accesos. Si bien han habido esfuerzos
+          individuales o de ciertas comunidades por gestionar y cuidar sectores,
+          no ha existido un esfuerzo colectivo exitoso.
+        </p>
+      </div>
+    </div>
+    <div>
+      <img
+        class="img-members"
+        height="200"
+        src="assets/images/home_half_sq_1.jpg"
+        alt=""
+      />
+    </div>
+  </div>
+
+  <div class="uk-grid-collapse uk-child-width-expand@s" uk-grid>
+    <div>
+      <img
+        class="img-members"
+        height="200"
+        src="assets/images/home_half_sq_2.jpg"
+        alt=""
+      />
+    </div>
+    <div
+      class="uk-flex uk-flex-top"
+      uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+    >
+      <div class="uk-padding uk-margin-auto-vertical">
+        <h2>Qué buscamos</h2>
+        <p>
+          En Andescalada queremos facilitar la gestión de los sectores de
+          escalada por parte de las comunidades locales. Por medio de una
+          <span class="uk-text-bold">aplicación movil</span> buscaremos crear
+          canales de comunicación, que permitan proteger el medio ambiente,
+          promover el desarrollo local y potenciar la escalada.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="team" class="uk-section uk-section-muted">
+  <div
+    class="uk-container uk-text-center"
+    uk-scrollspy="cls: uk-animation-fade; delay: 100; repeat: false"
+  >
+    <h2>Equipo</h2>
+    <ul class="uk-child-width-1-1 uk-child-width-1-4@m uk-text-center" uk-grid>
+      {% for member in site.data.members %}
+      <li
+        class="member-card"
+        uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+      >
+        <div class="uk-text-center">
+          <img
+            class="img-members uk-border-circle"
+            width="180"
+            height="180"
+            src="assets/images/members/{{ member.photo }}"
+            alt=""
+          />
+          <p class="">
+            <span class="uk-text-bold"> {{ member.name }} </span> <br />
+            {{member.position}} <br />
+            {% if member.instagram %}
+            <a
+              class="pink-darker-f"
+              href="{{member.instagram}}"
+              class="uk-icon-link"
+              uk-icon="instagram"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram de {{member.name}}"
+            ></a>
+            {% endif %} {% if member.linkedin %}
+            <a
+              class="pink-darker-f"
+              href="{{member.linkedin}}"
+              class="uk-icon-link"
+              uk-icon="linkedin"
+              target="_blank"
+              rel="noopener"
+              aria-label="Linkedin de {{member.name}}"
+            ></a>
+            {% endif %} {% if member.twitter %}
+            <a
+              class="pink-darker-f"
+              href="{{member.twitter}}"
+              class="uk-icon-link"
+              uk-icon="twitter"
+              target="_blank"
+              rel="noopener"
+              aria-label="Twitter de {{member.name}}"
+            ></a>
+            {% endif %} {% if member.github %}
+            <a
+              class="pink-darker-f"
+              href="{{member.github}}"
+              class="uk-icon-link"
+              uk-icon="github"
+              target="_blank"
+              rel="noopener"
+              aria-label="Website {{member.github}}"
+            ></a>
+            {% endif %} {% if member.website %}
+            <a
+              class="pink-darker-f"
+              href="{{member.website}}"
+              class="uk-icon-link"
+              uk-icon="world"
+              target="_blank"
+              rel="noopener"
+              aria-label="Website {{member.website}}"
+            ></a>
+            {% endif %}
+          </p>
+          <p class="uk-text-small">{{ member.bio }}</p>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+
+<div
+  id="about"
+  class="uk-section uk-section-default uk-section-large uk-flex uk-flex-column"
+  uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+>
+  <div class="uk-container">
+    <h2>Por qué Andescalada</h2>
+
+    <div class="uk-column-1-2@m uk-column-divider">
+      <p>
+        Andescalada es una organización sin fines de lucro que busca coordinar,
+        documentar y promover el desarrollos sostenible de los sectores de
+        escalada en torno a los Andes.
+      </p>
+
+      <p>
+        Reconociendo el potencial y la expansión de la escalada en los Andes,
+        vemos con urgencia realizar acciones para coordinar a los escaladores y
+        escaladoras con las comunidades aledañas a los sectores. Para ello
+        <span class="uk-text-bold">promovemos coaliciones por sectores</span>,
+        las que tienen por objetivo documentar las rutas de la zona, así como
+        ser el nexo entre escaladores y la comunidad, permitiendo cuidar el
+        entorno, preservar los accesos, contar con acuerdos claros y desarrollar
+        iniciativas acordes a las realidades locales.
+      </p>
+
+      <blockquote cite="#" class="uk-column-span">
+        <p>
+          Andescalada proporciona un espacio de información, encuentro y diálogo
+          para los escaladores y escaladoras de Chile.
+        </p>
+      </blockquote>
+
+      <p>
+        Para coordinar estos esfuerzos se contará con una aplicación móvil que
+        facilitará la gestión de los sectores de escalada, así como el acceso a
+        la información de estos. La aplicación And(es)calada busca ser la mejor
+        guía de escalada en torno a los Andes, entregando datos relevantes de
+        las rutas, así como información actualizada del sector y los acuerdos de
+        cuidado y desarrollo.
+      </p>
+    </div>
+  </div>
+  <div class="uk-flex-center uk-flex-inline uk-margin-medium-top">
+    <!-- <a class="button uk-button uk-button-default uk-width-auto" href="./page2">
+      Ver más sobre el proyecto
+    </a> -->
+  </div>
+</div>
+
+<div
+  class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
+  style="background-image: url('assets/images/home_dark5.jpg');"
+  uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
+>
+  <div class="uk-width-1-2@m uk-margin-auto-vertical uk-margin-xlarge-left">
+    <h2>Recibe actualizaciones de Andescalada</h2>
+    <div id="mc_embed_signup">
+      <form
+        action="https://gmail.us10.list-manage.com/subscribe/post?u=0194c5586a4e7efe96414fa99&amp;id=fa90454139"
+        method="post"
+        id="mc-embedded-subscribe-form"
+        name="mc-embedded-subscribe-form"
+        class="validate uk-form-horizontal uk-margin-large"
+        target="_blank"
+        novalidate
+      >
+        <div id="mc_embed_signup_scroll" class="uk-margin" uk-margin>
+          <div uk-form-custom="target: true">
+            <input
+              type="email"
+              value=""
+              name="EMAIL"
+              class="email uk-input uk-form-width-medium"
+              id="mce-EMAIL"
+              placeholder="correo electrónico"
+              required
+            />
+          </div>
+          <input
+            type="submit"
+            value="Recibe noticias"
+            name="subscribe"
+            id="mc-embedded-subscribe"
+            class="button uk-button uk-button-default"
+          />
+
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px;" aria-hidden="true">
+            <input
+              type="text"
+              name="b_0194c5586a4e7efe96414fa99_fa90454139"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

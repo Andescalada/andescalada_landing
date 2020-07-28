@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{%- include header.html -%}
+
 <div class="uk-section uk-section-muted">
   <div class="uk-container">
     <ul class="uk-subnav uk-subnav-pill" uk-switcher>
@@ -9,7 +11,7 @@ layout: default
       <li><a href="#">Que Hacemos</a></li>
     </ul>
     <ul class="uk-switcher uk-margin">
-      <li>{{ content }}</li>
+      <li>{%- include home.html -%}</li>
       <li>Hello again!</li>
     </ul>
   </div>

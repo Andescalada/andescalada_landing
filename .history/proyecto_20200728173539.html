@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{%- include header.html -%}
+
+<ul
+  class="uk-tab uk-flex uk-flex-center"
+  uk-switcher="animation: uk-animation-left"
+>
+  <li><a href="#">Quienes Somos</a></li>
+  <li><a href="#">Que Hacemos</a></li>
+</ul>
+<ul class="uk-switcher">
+  <li>{%- include fundacion.html -%}</li>
+  <li>{%- include proyecto.html -%}</li>
+</ul>
