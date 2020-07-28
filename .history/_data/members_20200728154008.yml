@@ -32,10 +32,6 @@
   instagram: 'https://www.instagram.com/rominatoro/?hl=en'
   position: 'Financiamiento'
   photo: 'romi.png'
-- name: Jekar Molina
-  bio: Ingeniero Civil Industrial. Montañista y escalador por sobre todas las cosas.
-  photo: 'jekar.png'
-  position: 'Gestión Comunitaria'
 - name: Verena Egetemeir
   bio: Socióloga de la Universidad de Augsburg (Alemania), con estudios complementarios en Geografía Social y Ciencia Política. Escaladora hace más de 10 años.
   linkedin: 'https://www.linkedin.com/in/verena-egetemeir-24682140/'
@@ -43,6 +39,10 @@
   # instagram: './''
   photo: 'verena.png'
   position: 'Directora'
+- name: Jekar Molina
+  bio: Ingeniero Civil Industrial. Montañista y escalador por sobre todas las cosas.
+  photo: 'jekar.png'
+  position: 'Gestión Comunitaria'
 - name: José Ignacio Morales
   bio: Abogado, socio fundador de Zenit Climbing & Yoga, montañista, escalador, abridor de rutas nuevas en distintas partes de los Andes.
   linkedin: 'https://www.linkedin.com/in/ji-morales/'
