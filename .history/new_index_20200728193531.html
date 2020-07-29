@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{%- include header_no_nav.html -%}
+{%- include header.html -%}
 
 <ul
   class="uk-tab uk-flex uk-flex-center"
   uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
 >
   <li><a href="#">La Fundación</a></li>
-  <li><a href="#" >Nuestros Proyectos</a></liclass="uk-active">
+  <li ><a href="#" >Nuestros Proyectos</a></liclass="uk-active">
 </ul>
 <ul class="uk-switcher">
   <li>{%- include fundacion.html -%}</li>
@@ -22,7 +22,7 @@ layout: default
   uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
 >
   <div class="uk-width-1-2@m uk-margin-auto-vertical uk-margin-xlarge-left">
-    <h2>Inscríbete en nuestra lista de espera</h2>
+    <h2>Recibe actualizaciones de Andescalada</h2>
     <div id="mc_embed_signup">
       <form
         action="https://gmail.us10.list-manage.com/subscribe/post?u=0194c5586a4e7efe96414fa99&amp;id=fa90454139"
@@ -47,7 +47,7 @@ layout: default
           </div>
           <input
             type="submit"
-            value="Incríbete"
+            value="Recibe noticias"
             name="subscribe"
             id="mc-embedded-subscribe"
             class="button uk-button uk-button-default"
