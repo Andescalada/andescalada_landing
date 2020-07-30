@@ -3,7 +3,19 @@ layout: default
 ---
 
 <!-- {% include navbar.html %} -->
-{%- include header_no_nav.html -%} {%- include fundacion.html -%}
+{%- include header_no_nav.html -%}
+
+<ul
+  class="uk-tab uk-flex uk-flex-center"
+  uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
+>
+  <li><a href="#">La Fundación</a></li>
+  <li><a href="#" >Nuestros Proyectos</a></liclass="uk-active">
+</ul>
+<ul class="uk-switcher">
+  <li>{%- include fundacion.html -%}</li>
+  <li>{%- include proyecto.html -%}</li>
+</ul>
 
 <div
   class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top"
