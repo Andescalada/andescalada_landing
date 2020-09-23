@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <header>
   <!-- Desktop version -->
   <div class="uk-visible@s">
@@ -6,24 +10,24 @@
         class="uk-cover-container"
         uk-scrollspy="cls: uk-animation-fade; target: > div; delay: 50; repeat: true"
       >
-        <canvas width="1" height="700"></canvas>
+        <canvas width="1" height="800"></canvas>
         <img
           class="uk-blend-darken"
-          src="assets/images/home_dark6.jpg"
+          src="/assets/images/crowdfunding.jpg"
           alt=""
           uk-cover
         />
         <div class="uk-position-center uk-position-small uk-light">
-          <h1 class="uk-margin-xlarge-left uk-margin-xlarge-right">
-            Andescalada
-          </h1>
-          <p
-            class="uk-margin-xlarge-left uk-margin-xlarge-right uk-text-lead white"
-          >
-            Somos una organización sin fines de lucro que busca coordinar,
-            documentar y promover el desarrollo sostenible de los sectores de
-            escalada en torno a los Andes.
-          </p>
+          <div class="uk-margin-xlarge-left uk-margin-xlarge-right">
+            <h1> Andescalada </h1>
+            <h2> ¡Te invitamos a nuestro primer crowdfunding con amigos! </h2>
+            <p class="uk-text-lead white">
+              <span class="uk-text-bold">¿Cuándo?</span> 01 de octubre de 2020 <br>
+              <span class="uk-text-bold">¿A qué hora?</span> 19:00 <br>
+              <span class="uk-text-bold">¿Dónde lo realizaremos?</span> A través de Zoom
+            </p>
+          </div>
+
           <!-- Begin Mailchimp Signup Form -->
           <div class="uk-margin-xlarge-left" id="mc_embed_signup">
             <form
@@ -36,20 +40,29 @@
               novalidate
             >
               <div id="mc_embed_signup_scroll" class="uk-margin" uk-margin>
-                <div uk-form-custom="target: true">
+                <div uk-form-custom="">
                   <input
                     type="email"
                     value=""
                     name="EMAIL"
                     class="email uk-input uk-form-width-medium"
                     id="mce-EMAIL"
-                    placeholder="correo electrónico"
+                    placeholder="Correo electrónico"
+                    required
+                  />
+                  <input
+                    type="text"
+                    value=""
+                    name="NAME"
+                    class="uk-input uk-form-width-medium"
+                    id="mce-NAME"
+                    placeholder="Nombre"
                     required
                   />
                 </div>
                 <input
                   type="submit"
-                  value="Recibe noticias"
+                  value="Confirmar inscripción"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   class="button uk-button uk-button-default"
@@ -67,8 +80,11 @@
                   />
                 </div>
                 <p class="white">
-                  Suscríbete y recibe las novedades de Andescalada
+                  Confirma tu inscripción y te enviaremos el link de la reunión a tu correo electrónico
                 </p>
+                <div uk-lightbox>
+                  <a class="uk-button uk-button-default" href="https://www.youtube.com/watch?v=svcVodv_UGU" data-caption="YouTube" data-attrs="width: 1280; height: 720;">Ver video</a>
+                </div>
               </div>
             </form>
           </div>
@@ -80,7 +96,7 @@
           >
             <div class="uk-navbar-right">
               <ul class="uk-navbar-nav">
-                <li><a href="https://andescalada.org" class="navbar-link">ANDESCALADA</a></li>
+                <li><a href="https://andescalada.org" class="uk-text-bold white">ACERCA ANDESCALADA</a></li>
               </ul>
             </div>
           </nav>
@@ -98,17 +114,19 @@
         <canvas width="1" height="600"></canvas>
         <img
           class="uk-blend-darken"
-          src="assets/images/home_dark6.jpg"
+          src="/assets/images/crowdfunding.jpg"
           alt=""
           uk-cover
         />
         <div class="uk-position-center uk-position-small uk-light">
-          <h1 class="uk-h2">Andescalada</h1>
+          <h1 class="uk-h1"> Andescalada </h1>
+          <h2 class="uk-h3"> ¡Te invitamos a nuestro primer crowdfunding con amigos! </h2>
           <p class="white">
-            Organización sin fines de lucro que busca coordinar, documentar y
-            promover el desarrollo sostenible de los sectores de escalada en
-            torno a los Andes.
+            <span class="uk-text-bold">¿Cuándo?</span> 01 de octubre de 2020 <br>
+            <span class="uk-text-bold">¿A qué hora?</span> 19:00 <br>
+            <span class="uk-text-bold">¿Dónde lo realizaremos?</span> A través de Zoom
           </p>
+
           <!-- Begin Mailchimp Signup Form -->
           <div class="" id="mc_embed_signup">
             <form
@@ -121,20 +139,29 @@
               novalidate
             >
               <div id="mc_embed_signup_scroll" class="uk-margin" uk-margin>
-                <div uk-form-custom="target: true">
+                <div uk-form-custom="">
                   <input
                     type="email"
                     value=""
                     name="EMAIL"
                     class="email uk-input uk-form-width-medium"
                     id="mce-EMAIL"
-                    placeholder="correo electrónico"
+                    placeholder="Correo electrónico"
+                    required
+                  />
+                  <input
+                    type="text"
+                    value=""
+                    name="NAME"
+                    class="uk-input uk-form-width-medium"
+                    id="mce-NAME"
+                    placeholder="Nombre"
                     required
                   />
                 </div>
                 <input
                   type="submit"
-                  value="Recibe noticias"
+                  value="Confirmar inscripción"
                   name="subscribe"
                   id="mc-embedded-subscribe"
                   class="button uk-button uk-button-default"
@@ -151,12 +178,16 @@
                     value=""
                   />
                 </div>
-                <p class="white uk-text-small">
-                  Suscríbete y recibe las novedades de Andescalada
+                <p class="white">
+                  Confirma tu inscripción y te enviaremos el link de la reunión a tu correo electrónico
                 </p>
+                <div uk-lightbox>
+                  <a class="uk-button uk-button-default" href="https://www.youtube.com/watch?v=svcVodv_UGU" data-caption="YouTube" data-attrs="width: 1280; height: 720;">Ver video</a>
+                </div>
               </div>
             </form>
           </div>
+
         </div>
       </div>
     </div>
