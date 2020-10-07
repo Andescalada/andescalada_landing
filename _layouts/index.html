@@ -4,13 +4,33 @@ layout: default
 
 {%- include header_no_nav.html -%}
 
+<section class="uk-section uk-section-default">
+
+  <div class="uk-grid-column-small uk-grid-row-large uk-child-width-1-2@s uk-text-center" uk-grid>
+    <div>
+      <div class="uk-container uk-text-center">
+        <h3>Acerca de Andescalada</h3>
+        <iframe src="https://www.youtube.com/embed/svcVodv_UGU" width="810" height="540" frameborder="0" allowfullscreen uk-responsive></iframe>
+      </div>
+    </div>
+    <div>
+      <div class="uk-container uk-text-center">
+        <h3>Conoce al equipo</h3>
+        <iframe src="https://www.youtube.com/embed/Mk65lBM0NbY" width="810" height="540" frameborder="0" allowfullscreen uk-responsive></iframe>
+      </div>
+    </div>
+  </div>
+
+
+</section>
+
 <ul
   class="uk-tab uk-flex uk-flex-center"
   uk-switcher="animation: uk-animation-slide-left-medium, uk-animation-slide-right-medium"
   id='tabs'
 >
   <li><a href="#">La Fundación</a></li>
-  <li><a href="#" >Nuestros Proyectos</a></liclass="uk-active">
+  <li><a href="#" >Nuestros Proyectos</a></li class="uk-active">
 </ul>
 <ul class="uk-switcher">
   <li>{%- include fundacion.html -%}</li>
